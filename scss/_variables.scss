@@ -1,0 +1,10 @@
+$color-principal: #6BAF92;
+$color-texto: #333333;
+$color-fondo: #F5F5F0;
+$color-blanco: #ffffff;
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
