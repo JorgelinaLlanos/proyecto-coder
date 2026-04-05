@@ -44,7 +44,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 60px 40px;
+  padding: 60px 50px;
   gap: 40px;
 }
 
@@ -142,7 +142,7 @@ p {
   align-items: center;
 }
 .video-container iframe {
-  width: 100%;
+  width: 110%;
   max-width: 500px;
   aspect-ratio: 16/9;
   border: none;
@@ -176,7 +176,7 @@ p {
 /* ================= ANIMACIONES ================= */
 @keyframes aparecer {
   from {
-    opacity: 10;
+    opacity: 0;
     transform: translateY(20px);
   }
   to {
